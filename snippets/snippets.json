@@ -137,7 +137,7 @@
 			"interface ${1:IApp}Props {$2",
 			"}",
 			"",
-			"const $1: React.SFC<$1Props> = (props) => {",
+			"const $1: React.FunctionComponent<$1Props> = (props) => {",
 			"  return $0;",
 			"};",
 			"",
