@@ -32,6 +32,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `tsrpcc→`| `class purecomponent skeleton` |
 | `tsrpcjc→` | `class purecomponent without import and default export lines` |
 | `tsrpfc` | `pure function component skeleton` |
+| `tsdrpfc` | `stateless functional component with default export` |
 | `tsrsfc` | `stateless functional component` |
 | `conc→`  | `class default constructor with props and context` |
 | `cwm→`   | `componentWillMount method` |
