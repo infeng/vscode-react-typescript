@@ -129,6 +129,25 @@
 		],
 		"description": "Create a React Pure Function Component."
 	},
+	"Export Default React Pure Function Component": {
+		"prefix": "tsdrpfc",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface I${1:App}Props {",
+			"}",
+			"",
+			"export default function ${1:} (props: I${1:}Props) {",
+			"    return (",
+			"      <div>",
+			"        ${0}",
+			"      </div>",
+			"    );",
+			"}",
+			""
+		],
+		"description": "Create a default-exported React Pure Function Component."
+	},
 	"React Stateless Functional Component": {
 		"prefix": "tsrsfc",
 		"body": [
