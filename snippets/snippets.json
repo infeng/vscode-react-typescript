@@ -31,7 +31,7 @@
 			"export interface I${1:App}State {",
 			"}",
 			"",
-			"export default class ${1:} extends React.Component<I${1:}Props, ${1:}State> {",
+			"export default class ${1:} extends React.Component<I${1:}Props, I${1:}State> {",
 			"  constructor(props: I${1:}Props) {",
 			"    super(props);",
 			"",
