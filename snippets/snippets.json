@@ -160,7 +160,8 @@
 			"  return $0;",
 			"};",
 			"",
-			"export default ${1:};"
+			"export default ${1:};",
+			""
 		],
 		"description": "Create a React Stateless Functional Component."
 	},
